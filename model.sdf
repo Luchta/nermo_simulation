@@ -1,0 +1,2398 @@
+<?xml version="1.0" ?>
+<sdf version="1.5">
+	<model name="Nermo">
+		<pose>0.0 0.0 0.4 0.0 0.0 0.0</pose>
+		<link name="link_Body">
+			<pose>0.0 -0.163499996066 0.0 0.3490658104419708 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.027952920645475388</mass>
+				<pose>-1.1560042366909329e-05 0.1207246333360672 -0.043132293969392776 -0.3458750247955322 -0.0 0.0</pose>
+				<inertia>
+					<ixx>00002.2470134717877954</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>00001.2750674795825034</iyy>
+					<iyz>0.0</iyz>
+					<izz>00002.104070590576157</izz>
+				</inertia>
+			</inertial>
+			<collision name="simp_Body_collision">
+				<pose>0.0 0.13999995589256287 -0.05000009760260582 1.3000004291534424 -0.0 0.0</pose>
+				<geometry>
+					<cylinder>
+						<radius>0.08999999761581421</radius>
+						<length>0.30</length>
+					</cylinder>
+				</geometry>
+			</collision>
+			<visual name="VIS_link_Body_visual">
+				<pose>-0.0008100002887658775 0.11390196532011032 -0.07912080734968185 -0.3458750247955322 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Body_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Body10">
+			<pose>0.0 -0.163499996066 -9.492964908e-18 3.673316626046999e-15 -5.164359917954671e-08 3.141592511700153</pose>
+			<inertial>
+				<mass>0.016543814912438393</mass>
+				<pose>2.186378333135508e-05 0.03553713485598564 -0.0040590763092041016 8.94152929475922e-09 -4.5664704927551175e-14 -3.141590118408203</pose>
+				<inertia>
+					<ixx>52056.71550356783e-05</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>92151.50203090161e-05</iyy>
+					<iyz>0.0</iyz>
+					<izz>00001.1011089372914284</izz>
+				</inertia>
+			</inertial>
+			<collision name="simp_Body10_collision_1">
+				<pose>5.773159728050814e-15 0.012000257149338722 -0.004999995231628418 0.8000001311302185 -5.2632785045721945e-15 2.331461956828207e-07</pose>
+				<geometry>
+					<box>
+						<size>0.2700000047683716 0.10 0.10</size>
+					</box>
+				</geometry>
+			</collision>
+			<collision name="simp_Neck_collision">
+				<pose>8.881784197001252e-16 0.08000031113624573 0.009999990463256836 5.066380026619299e-07 3.552713678800501e-14 2.3314618147196597e-07</pose>
+				<geometry>
+					<box>
+						<size>0.10 0.10 0.10</size>
+					</box>
+				</geometry>
+			</collision>
+			<visual name="VIS_link_Body10_visual">
+				<pose>8.326672684688674e-15 0.0219303909689188 -0.004560112953186035 -5.066380026619299e-07 5.828669252978813e-13 -3.141590118408203</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Body10_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_LV">
+			<pose>0.105599974281 -0.17250029099 -0.0293900052604 -1.46607661247253 5.164359917954668e-08 9.106158938010549e-09</pose>
+			<inertial>
+				<mass>0.00021988425578456372</mass>
+				<!--<mass>1</mass>-->
+				<pose>0.00044481936492957175 0.0375446118414402 -0.0025913752615451813 1.4735403060913086 4.2540740707863733e-08 -1.4644143675468513e-07</pose>
+				<inertia>
+					<ixx>20102.309861158574e-07</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>19372.86242537084e-07</iyy>
+					<iyz>0.0</iyz>
+					<izz>21246.36822031789e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_LV_visual">
+				<pose>-1.782334990707568e-08 0.03023882769048214 -0.0024076213594526052 1.4735404253005981 -5.5105271457023264e-08 -3.4556496331106246e-08</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_LV_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_LV3">
+			<pose>0.106049969581 -0.158970876052 -0.117860095608 -1.9722220897674518 5.164359917954668e-08 9.106158938010549e-09</pose>
+			<inertial>
+				<mass>0.0002354410826228559</mass>
+				<pose>-7.286712843779242e-06 0.05222716182470322 -0.03300363942980766 1.9832098484039307 1.4835171668892144e-07 -7.893412146131595e-08</pose>
+				<inertia>
+					<ixx>35400.e-07</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>14592.0e-07</iyy>
+					<iyz>0.0</iyz>
+					<izz>23669.0e-07</izz>
+				</inertia>
+			</inertial>
+			<collision name="COL_link_LV3_collision">
+				<pose>3.3157718348775234e-08 0.007983454503118992 0.0011351609136909246 1.9832104444503784 -6.108444239316668e-08 -1.0125307170483211e-07</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/collisions/COL_link_LV3_collision.dae</uri>
+						<scale>0.0030000018887221813 0.0030000023543834686 0.0030000023543834686</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="VIS_link_LV3_visual">
+				<pose>3.3157718348775234e-08 0.007983454503118992 0.0011351609136909246 1.9832104444503784 -6.108444239316668e-08 -1.0125307170483211e-07</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_LV3_visual.dae</uri>
+						<scale>0.0030000018887221813 0.0030000023543834686 0.0030000023543834686</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Neck">
+			<pose>-2.02121490307e-05 -0.239999994633 0.0329999998222 4.124649900357108e-15 5.164359917954668e-08 9.106158938010549e-09</pose>
+			<inertial>
+				<mass>0.001524103805422783</mass>
+				<pose>5.280162440612912e-05 -0.01650528982281685 0.03258824348449707 2.8502998361545906e-07 5.610042595402542e-13 2.057137273026033e-11</pose>
+				<inertia>
+					<ixx>10291.004173268448e-06</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>16705.80900281493e-06</iyy>
+					<iyz>0.0</iyz>
+					<izz>16125.790125443018e-06</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Neck_visual">
+				<pose>-1.5969447986208252e-12 -0.011000019498169422 0.019999980926513672 -5.066381163487677e-07 -1.387778357264972e-14 1.6930519960707373e-14</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Neck_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Head">
+			<pose>0.00136979087852 -0.275449994936 0.0855600013621 -2.967059612274166 5.164359917954668e-08 9.106158938010549e-09</pose>
+			<inertial>
+				<mass>0.01669342815876007</mass>
+				<pose>-0.00020528103050310165 0.0648818165063858 -0.0026898235082626343 2.9674696922302246 1.3529414255586403e-09 5.416086468201797e-10</pose>
+				<inertia>
+					<ixx>76165.43734911829e-05</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>61718.18677103147e-05</iyy>
+					<iyz>0.0</iyz>
+					<izz>87407.75956539437e-05</izz>
+				</inertia>
+			</inertial>
+			<collision name="COL_link_Head_collision">
+				<pose>7.202594076716196e-11 0.056473925709724426 -0.004329357296228409 2.9674715995788574 -1.927855444727733e-12 1.1506996798558294e-13</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/collisions/COL_link_Head_collision.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="VIS_link_Head_visual">
+				<pose>7.202594076716196e-11 0.056473925709724426 -0.004329357296228409 2.9674715995788574 -1.927855444727733e-12 1.1506996798558294e-13</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Head_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<sensor name='cam_left_eye' type='camera'>
+		        <always_on>1</always_on>
+		        <update_rate>10</update_rate>
+		        <visualize>1</visualize>
+		        <pose>-0.07 0.1 -0.015 0 0 1.5</pose>
+		        <topic>/nermo_left_eye/mouse/left_eye</topic>
+		        <camera>
+		          <image>
+		            <width>640</width>
+		            <height>480</height>
+		            <format>R8G8B8</format>
+		          </image>
+		          <clip>
+		            <near>0.1</near>
+		            <far>100</far>
+		          </clip>
+		        </camera>
+		        <plugin name="nermo_left_eye" filename="libgazebo_ros_camera.so">
+		          <alwaysOn>true</alwaysOn>
+		          <updateRate>30.0</updateRate>
+		          <cameraName>nermo_left_eye</cameraName>
+		          <imageTopicName>Nermo/left_eye</imageTopicName>
+		          <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+		          <frameName>camera_link</frameName>
+		          <hackBaseline>0.07</hackBaseline>
+		          <distortionK1>0.0</distortionK1>
+		          <distortionK2>0.0</distortionK2>
+		          <distortionK3>0.0</distortionK3>
+		          <distortionT1>0.0</distortionT1>
+		          <distortionT2>0.0</distortionT2>
+		        </plugin>
+		      </sensor>
+		      <sensor name='cam_right_eye' type='camera'>
+		        <always_on>1</always_on>
+		        <update_rate>10</update_rate>
+		        <visualize>1</visualize>
+		        <pose>0.05 0.1 -0.015 0 0 1,3</pose>
+		        <topic>/nermo_right_eye/mouse/right_eye</topic>
+		        <camera>
+		          <image>
+		            <width>640</width>
+		            <height>480</height>
+		            <format>R8G8B8</format>
+		          </image>
+		          <clip>
+		            <near>0.1</near>
+		            <far>100</far>
+		          </clip>
+		        </camera>
+		        <plugin name="nermo_right_eye" filename="libgazebo_ros_camera.so">
+		          <alwaysOn>true</alwaysOn>
+		          <updateRate>30.0</updateRate>
+		          <cameraName>nermo_right_eye</cameraName>
+		          <imageTopicName>Nermo/right_eye</imageTopicName>
+		          <cameraInfoTopicName>camera_info</cameraInfoTopicName>
+		          <frameName>camera_link</frameName>
+		          <hackBaseline>0.07</hackBaseline>
+		          <distortionK1>0.0</distortionK1>
+		          <distortionK2>0.0</distortionK2>
+		          <distortionK3>0.0</distortionK3>
+		          <distortionT1>0.0</distortionT1>
+		          <distortionT2>0.0</distortionT2>
+		        </plugin>
+		      </sensor>
+			<!--
+			<sensor name="eye_right" type="camera">
+				<pose>0 0 0 0 0 0</pose>
+			</sensor>
+			<sensor name="eye_left" type="camera">
+				<pose>0 0 0 0 0 0</pose>
+			</sensor>
+		-->
+		</link>
+		<link name="link_RV">
+			<pose>-0.105600024575 -0.172499701298 -0.0293999948951 -1.46607661247253 5.164359917954668e-08 9.106158938010549e-09</pose>
+			<inertial>
+				<mass>0.00022065636585466564</mass>
+				<pose>-0.0004444968362804502 0.0375099778175354 -0.0026290826499462128 1.473540186882019 -1.72202490489326e-07 -2.6541194131368684e-08</pose>
+				<inertia>
+					<ixx>20202.09706188325e-07</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>19461.494105144084e-07</iyy>
+					<iyz>0.0</iyz>
+					<izz>21406.22434865236e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_RV_visual">
+				<pose>1.9424435393489148e-08 0.03023550845682621 -0.0024374688509851694 1.4735403060913086 -1.4673112502805452e-07 1.7714761213483143e-08</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_RV_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_RV3">
+			<pose>-0.106050029259 -0.158970286368 -0.117870085196 -1.9722220897674518 5.164359917954668e-08 9.106158938010549e-09</pose>
+			<inertial>
+				<mass>0.00023563475406263024</mass>
+				<pose>7.130159701773664e-06 0.05220050364732742 -0.033016178756952286 1.9832099676132202 -1.4738160416527535e-06 -4.856476554238043e-09</pose>
+				<inertia>
+					<ixx>35451.81357367255e-07</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>14625.516087107826e-07</iyy>
+					<iyz>0.0</iyz>
+					<izz>23689.315753472329e-07</izz>
+				</inertia>
+			</inertial>
+			<collision name="COL_link_RV3_collision">
+				<pose>4.060850500309243e-08 0.007983862422406673 0.0011354333255439997 1.9832102060317993 -3.6181427276460454e-07 6.643186338806117e-07</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/collisions/COL_link_RV3_collision.dae</uri>
+						<scale>0.003000001423060894 0.003000002121552825 0.0030000023543834686</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="VIS_link_RV3_visual">
+				<pose>4.060850500309243e-08 0.007983862422406673 0.0011354333255439997 1.9832102060317993 -3.6181427276460454e-07 6.643186338806117e-07</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_RV3_visual.dae</uri>
+						<scale>0.003000001423060894 0.003000002121552825 0.0030000023543834686</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Body8">
+			<pose>0.0 0.00279964818173 0.0605309648039 -0.13962638378143313 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.00017657570424489677</mass>
+				<pose>-6.830694019299699e-07 0.011799079366028309 0.004990763962268829 0.14189715683460236 -0.0 0.0</pose>
+				<inertia>
+					<ixx>33061.99758412731e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>54382.62817847317e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>38270.34689152242e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Body8_visual">
+				<pose>0.0 0.01091194897890091 0.0012556376168504357 0.14189694821834564 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Body8_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Body7">
+			<pose>0.0 0.0238096288594 0.0575708307404 -0.2094395458698273 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.0001912495499709621</mass>
+				<pose>-1.888275562578201e-07 0.00963762030005455 0.004078499507158995 0.2110929638147354 -0.0 0.0</pose>
+				<inertia>
+					<ixx>38958.933856747535e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>61376.83783435932e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>42122.83499782643e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Body7_visual">
+				<pose>0.0 0.011733733117580414 0.00036679673939943314 0.21109282970428467 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Body7_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Body6">
+			<pose>0.0 0.0448196304681 0.0531108403701 -0.26179942488670355 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.0001958714274223894</mass>
+				<pose>-3.647805257855907e-08 0.011531349271535873 0.005213150754570961 0.2558092474937439 -0.0 0.0</pose>
+				<inertia>
+					<ixx>39648.64703220883e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>61681.95909594942e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>44073.00124853464e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Body6_visual">
+				<pose>0.0 0.010330826044082642 0.0015233727172017097 0.25580894947052 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Body6_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Body5">
+			<pose>0.0 0.064279580668 0.0478906571233 -0.33161258697509777 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.00022021887707524002</mass>
+				<pose>-1.9247536329203285e-06 0.009999729692935944 0.0034523922950029373 0.3174588680267334 -0.0 0.0</pose>
+				<inertia>
+					<ixx>49493.96625875124e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>72317.05012600287e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>51501.309883406066e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Body5_visual">
+				<pose>0.0 0.01213546097278595 0.0003555081784725189 0.31745895743370056 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Body5_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Body4">
+			<pose>0.0 0.0851895618164 0.0407006031161 -0.383972465991974 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.00021348052541725338</mass>
+				<pose>-6.294252585803406e-08 0.011498302221298218 0.004975553601980209 0.3671741187572479 -0.0 0.0</pose>
+				<inertia>
+					<ixx>45864.81949786503e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>67942.0253391072e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>49972.499027717276e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Body4_visual">
+				<pose>0.0 0.01010168343782425 0.0013138428330421448 0.3671739399433136 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Body4_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Body3">
+			<pose>0.0 0.104559542312 0.0328705554288 -0.4537856280803682 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.00025150386500172317</mass>
+				<pose>1.4305119755420037e-08 0.009450830519199371 0.0027595199644565582 0.4444187581539154 -0.0 0.0</pose>
+				<inertia>
+					<ixx>61931.84276526154e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>83472.26554406006e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>63341.64481813787e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Body3_visual">
+				<pose>0.0 0.011164456605911255 -1.7136335372924805e-07 0.44441890716552734 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Body3_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Body2">
+			<pose>0.0 0.123369491474 0.0236904491605 -0.4886922091245653 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.0002767265250440687</mass>
+				<pose>2.503396068220809e-08 0.013379305601119995 0.0024889186024665833 0.4829692244529724 -0.0 0.0</pose>
+				<inertia>
+					<ixx>76046.17735523789e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>98465.2999136415e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>70977.71259623187e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_BezierCurve.001_2">
+				<pose>-2.9000006179558113e-05 0.027777686715126038 -3.725290298461914e-07 0.36651885509490967 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_BezierCurve_001_2.dae</uri>
+						<scale>0.10000002384185791 0.10000002384185791 0.10000002384185791</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="VIS_link_Body2_visual_1">
+				<pose>0.0 0.013880237936973572 -0.0009530484676361084 0.48296889662742615 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Body2_visual_1.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="VIS_BezierCurve_2">
+				<pose>-2.9000006179558113e-05 0.027777686715126038 -3.725290298461914e-07 0.36651885509490967 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_BezierCurve_2.dae</uri>
+						<scale>0.10000002384185791 0.10000002384185791 0.10000002384185791</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Body1">
+			<pose>-1.99999994948e-05 0.147899462043 0.0106503953023 -0.12217308580875413 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.01596779003739357</mass>
+				<pose>4.6279921662062407e-05 0.03284694254398346 -0.01318046823143959 0.1086609810590744 4.684681055621212e-14 6.028581280015377e-12</pose>
+				<inertia>
+					<ixx>40630.33338752575e-05</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>00001.1199721484445035</iyy>
+					<iyz>0.0</iyz>
+					<izz>00001.2178054021205753</izz>
+				</inertia>
+			</inertial>
+			<collision name="simp_Body1_collision">
+				<pose>-1.8189894035458565e-12 0.05000005662441254 -0.010000156238675117 -0.40000033378601074 -0.0 0.0</pose>
+				<geometry>
+					<box>
+						<size>0.2700000047683716 0.10 0.10</size>
+					</box>
+				</geometry>
+			</collision>
+			<visual name="VIS_link_Body1_axis_1">
+				<pose>-1.8189894035458565e-12 4.470348358154297e-08 -2.2351741790771484e-08 -2.0489096641540527e-07 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Body1_axis_1.dae</uri>
+						<scale>0.10000002384185791 0.10000002384185791 0.10000002384185791</scale>
+					</mesh>
+				</geometry>
+			</visual>
+			<visual name="VIS_link_Body1_visual_1">
+				<pose>-1.8189894035458565e-12 0.03818675875663757 -0.012281237170100212 0.10866090655326843 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Body1_visual_1.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_LH">
+			<pose>0.12390000109 0.169749381723 -0.0151396718517 -3.001966252923012 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.0003709332086145878</mass>
+				<pose>0.00044739991426467896 0.04496020823717117 0.0009394977241754532 2.9820401668548584 1.919854412335553e-06 -1.8114830879767396e-07</pose>
+				<inertia>
+					<ixx>45609.164089910337e-07</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>65427.46433524371e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>41418.49956340593e-07</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_LH_visual">
+				<pose>2.9802322387695312e-08 0.03258439898490906 0.0038416869938373566 2.9820399284362793 1.9701876681210706e-06 5.96059734903065e-08</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_LH_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_LH9">
+			<pose>0.124350001082 0.0684393068242 -0.0271490382523 -2.234021380543709 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.00010444215149618685</mass>
+				<pose>0.001483619213104248 0.03218325600028038 0.03618089482188225 2.204430103302002 1.7864908841147553e-06 3.8740475361009885e-07</pose>
+				<inertia>
+					<ixx>10437.596387191661e-07</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>89630.1628472429e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>23558.119011113376e-08</izz>
+				</inertia>
+			</inertial>
+			<collision name="COL_link_LH9_collision">
+				<pose>3.725290298461914e-08 0.009122438728809357 -0.001158386468887329 2.204430103302002 4.895053962172824e-07 -6.356016797326447e-07</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/collisions/COL_link_LH9_collision.dae</uri>
+						<scale>0.0030000023543834686 0.0030000025872141123 0.0030000009573996067</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="VIS_link_LH9_visual">
+				<pose>3.725290298461914e-08 0.009122438728809357 -0.001158386468887329 2.204430103302002 4.895053962172824e-07 -6.356016797326447e-07</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_LH9_visual.dae</uri>
+						<scale>0.0030000023543834686 0.0030000025872141123 0.0030000009573996067</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_LH5">
+			<pose>0.124320001083 0.0997891719995 -0.123589080457 0.45378570258617396 -0.0 0.0</pose>
+			<inertial>
+				<mass>2.345900247746613e-05</mass>
+				<pose>-0.0037231966853141785 0.020143866539001465 0.0023217089474201202 -0.45545196533203125 7.246844688779674e-07 -6.822916702731163e-07</pose>
+				<inertia>
+					<ixx>36275.360493220887e-09</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>26041.033773793743e-09</iyy>
+					<iyz>0.0</iyz>
+					<izz>38690.49081117737e-09</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_LH5_visual">
+				<pose>1.4901161193847656e-08 0.008511282503604889 -0.0006946399807929993 -0.45545172691345215 3.50106303573631e-18 1.468189835308338e-17</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_LH5_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_LH3">
+			<pose>0.12442000108 0.134309146361 -0.119318884483 -1.221730425953865 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.00010128265421371907</mass>
+				<pose>2.9802322387695312e-08 0.01613479107618332 -0.034664228558540344 1.2120299339294434 -5.42903766387326e-09 1.015379893942736e-06</pose>
+				<inertia>
+					<ixx>63560.06565511052e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>35185.21296541621e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>40680.706803186695e-08</izz>
+				</inertia>
+			</inertial>
+			<collision name="COL_link_LH3_collision">
+				<pose>7.450580596923828e-09 0.004974134266376495 0.0005364120006561279 1.2120295763015747 5.162540901437751e-07 6.825552532063739e-07</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/collisions/COL_link_LH3_collision.dae</uri>
+						<scale>0.0030000025872141123 0.003000003984197974 0.003000001423060894</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="VIS_link_LH3_visual">
+				<pose>7.450580596923828e-09 0.004974134266376495 0.0005364120006561279 1.2120295763015747 5.162540901437751e-07 6.825552532063739e-07</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_LH3_visual.dae</uri>
+						<scale>0.0030000025872141123 0.003000003984197974 0.003000001423060894</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_LH_linkage">
+			<pose>0.12390000109 0.136048157399 -0.0340136587001 -1.7191492468118668 -0.0 0.0</pose>
+			<inertial>
+				<mass>2.1988545995554887e-05</mass>
+				<pose>-0.0008753612637519836 0.037985749542713165 3.604590892791748e-05 3.1396727561950684 -0.0 0.0</pose>
+				<inertia>
+					<ixx>13121.390196602079e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>11477.220285271983e-09</iyy>
+					<iyz>0.0</iyz>
+					<izz>13747.539107100692e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_LH_linkage_visual">
+				<pose>-0.0008999928832054138 0.03801418095827103 0.006036043167114258 3.1396725177764893 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_LHm_visual.dae</uri>
+						<scale>0.003000001423060894 0.003000001423060894 0.003000001423060894</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_RH">
+			<pose>-0.123899998922 0.169749381723 -0.0151396718517 -3.001966252923012 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.00037029985105618834</mass>
+				<pose>-0.0004474148154258728 0.04495666176080704 0.0009578671306371689 2.9820401668548584 3.58588891913314e-07 4.597668379346942e-08</pose>
+				<inertia>
+					<ixx>45502.93510874326e-07</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>65149.20158906534e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>41336.04250000644e-07</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_RH_visual">
+				<pose>-1.4901161193847656e-08 0.03258486092090607 0.0038417428731918335 2.9820399284362793 6.938892209841334e-15 -5.960462701182223e-08</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_RH_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_RH_linkage">
+			<pose>-0.123899998922 0.136048157399 -0.0340136587001 -1.7191492468118668 -0.0 0.0</pose>
+			<inertial>
+				<mass>2.1988971639075316e-05</mass>
+				<pose>0.001325361430644989 0.03709633648395538 5.799531936645508e-05 -0.008724965155124664 3.141592502593994 -1.3675786725286798e-08</pose>
+				<inertia>
+					<ixx>13121.781883285166e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>11477.59887132338e-09</iyy>
+					<iyz>0.0</iyz>
+					<izz>13747.949445530594e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_RH_linkage_visual">
+				<pose>0.0013499930500984192 0.03702695667743683 0.006057620048522949 -0.008724846877157688 3.141592502593994 -1.3675772514432083e-08</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_RH_linkage_visual.dae</uri>
+						<scale>0.003000020980834961 0.003000020980834961 0.003000020980834961</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_RH9">
+			<pose>-0.124349998914 0.0684393068242 -0.0271490382523 -2.234021380543709 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.00010444169311085716</mass>
+				<pose>-0.0014836043119430542 0.0321776382625103 0.03618057072162628 2.204430103302002 2.5302003336946655e-07 1.5861276736472973e-08</pose>
+				<inertia>
+					<ixx>10437.716468914005e-07</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>89632.09552348417e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>23557.33741410404e-08</izz>
+				</inertia>
+			</inertial>
+			<collision name="COL_link_RH9_collision">
+				<pose>-3.725290298461914e-08 0.009117331355810165 -0.001158062368631363 2.204430103302002 8.940678242197464e-08 -8.565619680211967e-08</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/collisions/COL_link_RH9_collision.dae</uri>
+						<scale>0.0030000018887221813 0.003000003518536687 0.0030000009573996067</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="VIS_link_RH9_visual">
+				<pose>-3.725290298461914e-08 0.009117331355810165 -0.001158062368631363 2.204430103302002 8.940678242197464e-08 -8.565619680211967e-08</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_RH9_visual.dae</uri>
+						<scale>0.0030000018887221813 0.003000003518536687 0.0030000009573996067</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_RH5">
+			<pose>-0.124379998913 0.0997891719995 -0.123589080457 0.45378570258617396 -0.0 0.0</pose>
+			<inertial>
+				<mass>2.3461077944375575e-05</mass>
+				<pose>0.003720909357070923 0.020145535469055176 0.002332538366317749 -0.45545193552970886 -3.7163781030358223e-07 2.9069227025502187e-07</pose>
+				<inertia>
+					<ixx>36281.95299754111e-09</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>26041.77762322024e-09</iyy>
+					<iyz>0.0</iyz>
+					<izz>38706.93543461812e-09</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_RH5_visual">
+				<pose>2.2351741790771484e-08 0.008511185646057129 -0.0006947442889213562 -0.45545172691345215 -9.999510874747898e-16 1.5771752419083888e-15</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_RH5_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_RH3">
+			<pose>-0.124279998916 0.134309146361 -0.119318884483 -1.2042771130800247 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.00010120440856553614</mass>
+				<pose>7.450580596923828e-09 0.016134139150381088 -0.03469737619161606 1.2120306491851807 8.22579409032187e-08 -5.513919063560024e-07</pose>
+				<inertia>
+					<ixx>63461.91128159262e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>35135.58866075073e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>40622.66611981613e-08</izz>
+				</inertia>
+			</inertial>
+			<collision name="COL_link_RH3_collision">
+				<pose>2.2351741790771484e-08 0.004974059760570526 0.000536695122718811 1.2120299339294434 -1.973836845081678e-07 -4.347023718764831e-07</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/collisions/COL_link_RH3_collision.dae</uri>
+						<scale>0.0030000011902302504 0.0030000025872141123 0.0029999990947544575</scale>
+					</mesh>
+				</geometry>
+			</collision>
+			<visual name="VIS_link_RH3_visual">
+				<pose>2.2351741790771484e-08 0.004974059760570526 0.000536695122718811 1.2120299339294434 -1.973836845081678e-07 -4.347023718764831e-07</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_RH3_visual.dae</uri>
+						<scale>0.0030000011902302504 0.0030000025872141123 0.0029999990947544575</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Tail22">
+			<pose>-4.24973370296e-17 0.213789440461 0.00256019156312 -0.5235988050699236 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.0026864924002438784</mass>
+				<pose>0.016492078080773354 0.05175584554672241 0.01531819999217987 0.5037790536880493 -0.0 0.0</pose>
+				<inertia>
+					<ixx>43044.71076466143e-06</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>25323.90226406278e-06</iyy>
+					<iyz>0.0</iyz>
+					<izz>46979.75782619324e-06</izz>
+				</inertia>
+			</inertial>
+			<collision name="simp_Tail22_collision_1">
+				<pose>0.0 0.06000000238418579 0.009999945759773254 1.7999999523162842 -0.0 0.0</pose>
+				<geometry>
+					<cylinder>
+						<radius>0.05</radius>
+						<length>0.10</length>
+					</cylinder>
+				</geometry>
+			</collision>
+			<collision name="simp_TailUp_collision">
+				<pose>0.0 0.15000006556510925 0.019999846816062927 1.7999999523162842 -0.0 0.0</pose>
+				<geometry>
+					<cylinder>
+						<radius>0.030000001192092896</radius>
+						<length>0.15</length>
+					</cylinder>
+				</geometry>
+			</collision>
+			<visual name="VIS_link_Tail22_visual">
+				<pose>0.009180002845823765 0.04700465500354767 0.01614685356616974 0.5037790536880493 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Tail22_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Tail21">
+			<pose>-4.24973370296e-17 0.274579117382 -0.0341603437845 -0.31415928900241874 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.0001821312471292913</mass>
+				<pose>-2.8062349883839488e-05 0.007717549800872803 0.005304247140884399 0.2983231246471405 -0.0 0.0</pose>
+				<inertia>
+					<ixx>37402.07077385094e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>55272.66466742731e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>36853.83731522052e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Tail21_visual">
+				<pose>0.0 0.0086306631565094 0.0026536136865615845 0.29832300543785095 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Tail21_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Tail20">
+			<pose>-4.24973370296e-17 0.298449038367 -0.0426405654263 -0.3490658700466159 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.0001751332456478849</mass>
+				<pose>-2.7958638384006917e-05 0.007854193449020386 0.005556434392929077 0.3322139382362366 -0.0 0.0</pose>
+				<inertia>
+					<ixx>34692.444472739226e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>50806.402640546366e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>34582.57680222232e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Tail20_visual">
+				<pose>0.0 0.008762449026107788 0.0030230283737182617 0.3322139084339142 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Tail20_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Tail19">
+			<pose>-4.24973370296e-17 0.322308990972 -0.050630705275 -0.2967059910297396 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.00016490505367983133</mass>
+				<pose>-3.880264193867333e-05 0.008428752422332764 0.005040779709815979 0.271850049495697 -0.0 0.0</pose>
+				<inertia>
+					<ixx>31090.57189476516e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>45544.00945266934e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>31465.742011960174e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Tail19_visual">
+				<pose>0.0 0.009130805730819702 0.0025451332330703735 0.2718499004840851 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Tail19_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Tail18">
+			<pose>-4.24973370296e-17 0.346128944349 -0.0583708479073 -0.24434611201286335 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.00015676674956921488</mass>
+				<pose>1.0339741493226029e-05 0.008886367082595825 0.00463441014289856 0.22725500166416168 -0.0 0.0</pose>
+				<inertia>
+					<ixx>28279.490749127945e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>41391.540861468457e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>29109.374466429472e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Tail18_visual">
+				<pose>0.0 0.009410709142684937 0.0021762698888778687 0.22725501656532288 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Tail18_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Tail17">
+			<pose>-4.24973370296e-17 0.370008901565 -0.0654709940731 -0.20943953096866624 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.00014850353181827813</mass>
+				<pose>-1.3546231457439717e-05 0.00926259160041809 0.004343137145042419 0.19979897141456604 -0.0 0.0</pose>
+				<inertia>
+					<ixx>25648.434487379745e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>37354.535464828587e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>26694.818799910536e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Tail17_visual">
+				<pose>0.0 0.009643524885177612 0.0019526407122612 0.19979898631572723 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Tail17_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Tail16">
+			<pose>-4.24973370296e-17 0.393948904811 -0.071910982903 -0.20943953096866624 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.0001424453075742349</mass>
+				<pose>-1.0216000191576313e-05 0.009397372603416443 0.0042231082916259766 0.19137899577617645 -0.0 0.0</pose>
+				<inertia>
+					<ixx>23762.053658060722e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>34222.786382542836e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>24967.66882131851e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Tail16_visual">
+				<pose>0.0 0.009806185960769653 0.0018998309969902039 0.19137898087501526 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Tail16_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Tail15">
+			<pose>-4.24973370296e-17 0.417838906927 -0.0781009715603 -0.22689282149076478 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.00013620407844427973</mass>
+				<pose>-1.0077956176246516e-05 0.00951792299747467 0.004275090992450714 0.20099905133247375 -0.0 0.0</pose>
+				<inertia>
+					<ixx>21907.279545985148e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>31208.30882608061e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>23253.30505925649e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Tail15_visual">
+				<pose>0.0 0.00993470847606659 0.002024225890636444 0.20099903643131256 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Tail15_visual.dae</uri>
+						<scale>0.003000000724568963 0.003010000567883253 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Tail14">
+			<pose>-4.24973370296e-17 0.441698890527 -0.0840610389672 -0.26179940253496187 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.00012994113785680383</mass>
+				<pose>3.5533912523533218e-06 0.009521335363388062 0.004479527473449707 0.22725610435009003 -0.0 0.0</pose>
+				<inertia>
+					<ixx>20131.0896841278e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>28407.24633301761e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>21594.663834889616e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Tail14_visual">
+				<pose>0.0 0.01002398133277893 0.002317957580089569 0.22725607454776764 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Tail14_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Tail13">
+			<pose>-4.24973370296e-17 0.465508836319 -0.0897512626639 -0.1919862404465677 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.00012433991651050746</mass>
+				<pose>2.0613674678315874e-06 0.009894534945487976 0.003702707588672638 0.152555912733078 -0.0 0.0</pose>
+				<inertia>
+					<ixx>18630.515796758118e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>25904.775213803077e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>20132.51076959932e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Tail13_visual">
+				<pose>0.0 0.010287970304489136 0.0015816688537597656 0.15255601704120636 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Tail13_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Tail12">
+			<pose>-4.24973370296e-17 0.489318801905 -0.0951614111289 -0.26179940253496187 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.00011738000466721132</mass>
+				<pose>2.0036464775330387e-05 0.009832412004470825 0.004268482327461243 0.21416494250297546 -0.0 0.0</pose>
+				<inertia>
+					<ixx>16867.218732841138e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>23219.77987662649e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>18360.859499466642e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Tail12_visual">
+				<pose>0.0 0.0102882981300354 0.002237677574157715 0.21416494250297546 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Tail12_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Tail11">
+			<pose>-4.24973370296e-17 0.513098752647 -0.100351634604 -0.2268928214907648 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.00011213378456886858</mass>
+				<pose>-4.598380655806977e-06 0.01011320948600769 0.003793366253376007 0.17203301191329956 -0.0 0.0</pose>
+				<inertia>
+					<ixx>15559.578514512395e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>21184.391130191216e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>17117.795181320616e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Tail11_visual">
+				<pose>0.0 0.010491609573364258 0.0018228068947792053 0.17203307151794434 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Tail11_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Tail10">
+			<pose>-4.24973370296e-17 0.536858738758 -0.105261701616 -0.20943953096866627 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.00010645973816281185</mass>
+				<pose>-6.204130386322504e-06 0.010325253009796143 0.003499343991279602 0.1476679891347885 -0.0 0.0</pose>
+				<inertia>
+					<ixx>14226.71136452891e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>19113.723936925453e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>15790.8868203549e-08</izz>
+				</inertia>
+			</inertial>
+			<collision name="simp_Tailmid_collision">
+				<pose>0.0 -1.9371509552001953e-07 0.0019999071955680847 1.600000023841858 -0.0 0.0</pose>
+				<geometry>
+					<cylinder>
+						<radius>0.030000001192092896</radius>
+						<length>0.25</length>
+					</cylinder>
+				</geometry>
+			</collision>
+			<visual name="VIS_link_Tail10_visual">
+				<pose>0.0 0.010621607303619385 0.00157996267080307 0.14766806364059448 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Tail10_visual.dae</uri>
+						<scale>0.003000000724568963 0.003010000567883253 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Tail9">
+			<pose>-4.24973370296e-17 0.560618740278 -0.109951690334 -0.20943953096866627 -0.0 0.0</pose>
+			<inertial>
+				<mass>0.00010005373769672588</mass>
+				<pose>1.8957860447699204e-05 0.010510191321372986 0.003371693193912506 0.1390959769487381 -0.0 0.0</pose>
+				<inertia>
+					<ixx>12800.517978917014e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>17051.41450258907e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>14308.176865540645e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Tail9_visual">
+				<pose>0.0 0.01072421669960022 0.0015014037489891052 0.13909605145454407 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Tail9_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Tail8">
+			<pose>-4.24973370296e-17 0.584368741484 -0.114391678984 -0.2268928214907648 -0.0 0.0</pose>
+			<inertial>
+				<mass>9.48544911807403e-05</mass>
+				<pose>8.058789717324544e-06 0.010582998394966125 0.0034299641847610474 0.14888998866081238 -0.0 0.0</pose>
+				<inertia>
+					<ixx>11704.748281715638e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>15346.126147619543e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>13161.670864292319e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Tail8_visual">
+				<pose>0.0 0.010797888040542603 0.0016194283962249756 0.14889003336429596 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Tail8_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Tail7">
+			<pose>-4.24973370296e-17 0.608108728807 -0.118621745769 -0.12217306345701237 -0.0 0.0</pose>
+			<inertial>
+				<mass>9.059403237188235e-05</mass>
+				<pose>5.892993613088038e-06 0.010830238461494446 0.0023213401436805725 0.051204998046159744 -0.0 0.0</pose>
+				<inertia>
+					<ixx>10847.94476469142e-08</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>13923.395769666058e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>12281.230254984621e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Tail7_visual">
+				<pose>0.0 0.010934233665466309 0.000560268759727478 0.051205072551965714 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Tail7_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Tail6">
+			<pose>-4.24973370296e-17 0.631908716966 -0.122271818624 -0.15707964450120945 -0.0 0.0</pose>
+			<inertial>
+				<mass>8.614666148787364e-05</mass>
+				<pose>1.5156990230025258e-05 0.010735973715782166 0.002738252282142639 0.09471488744020462 -0.0 0.0</pose>
+				<inertia>
+					<ixx>99994.9900659658e-09</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>12548.307282145288e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>11373.190389463161e-08</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Tail6_visual">
+				<pose>0.0 0.01095917820930481 0.001041121780872345 0.09471509605646133 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Tail6_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Tail5">
+			<pose>-4.24973370296e-17 0.655768717575 -0.125321810044 -0.06981318444013615 -0.0 0.0</pose>
+			<inertial>
+				<mass>7.949107384774834e-05</mass>
+				<pose>-1.5420916952280095e-06 0.01049768179655075 0.0015925057232379913 -4.8351580517191906e-09 -0.0 0.0</pose>
+				<inertia>
+					<ixx>87157.87203072978e-09</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>11007.02284873023e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>99713.21546231593e-09</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Tail5_visual">
+				<pose>0.0 0.010978780686855316 -8.568167686462402e-08 8.218695768391626e-08 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Tail5_visual.dae</uri>
+						<scale>0.003000000724568963 0.003010000567883253 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Tail4">
+			<pose>-4.24973370296e-17 0.679628708137 -0.128131886015 -0.06981318444013615 -0.0 0.0</pose>
+			<inertial>
+				<mass>7.810912211425602e-05</mass>
+				<pose>1.8270500731887296e-05 0.010962583124637604 0.001656021922826767 -2.8050264333501218e-08 -0.0 0.0</pose>
+				<inertia>
+					<ixx>85754.95868967664e-09</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>10278.961681819965e-08</iyy>
+					<iyz>0.0</iyz>
+					<izz>97758.05054346165e-09</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Tail4_visual">
+				<pose>0.0 0.011038683354854584 -1.7508864402770996e-07 8.246091454111593e-08 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Tail4_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Tail3">
+			<pose>-4.24973370296e-17 0.703518699993 -0.130551962074 -0.06981318444013615 -0.0 0.0</pose>
+			<inertial>
+				<mass>7.254884985741228e-05</mass>
+				<pose>2.6206976144749206e-06 0.011090077459812164 0.0014876946806907654 -5.19116518660212e-08 -0.0 0.0</pose>
+				<inertia>
+					<ixx>75875.9099994677e-09</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>89638.38560305248e-09</iyy>
+					<iyz>0.0</iyz>
+					<izz>87341.70720003931e-09</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Tail3_visual">
+				<pose>0.0 0.01113816350698471 -5.960464477539063e-08 1.0671414685248237e-07 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Tail3_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Tail2">
+			<pose>-4.24973370296e-17 0.727428693384 -0.132592038194 -0.06981318444013615 -0.0 0.0</pose>
+			<inertial>
+				<mass>6.805745942983776e-05</mass>
+				<pose>-1.7350677808281034e-05 0.01123107224702835 0.0014001019299030304 -2.8584919320451263e-08 -0.0 0.0</pose>
+				<inertia>
+					<ixx>68486.97609029841e-09</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>79664.00872305712e-09</iyy>
+					<iyz>0.0</iyz>
+					<izz>78905.8240968643e-09</izz>
+				</inertia>
+			</inertial>
+			<visual name="VIS_link_Tail2_visual">
+				<pose>0.0 0.011169418692588806 -1.4901161193847656e-07 1.0186349896912361e-07 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Tail2_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+		<link name="link_Tail1">
+			<pose>-4.24973370296e-17 0.751378687825 -0.134232114438 -0.06981318444013615 -0.0 0.0</pose>
+			<inertial>
+				<mass>6.791194755351171e-05</mass>
+				<pose>-3.4024724300252274e-06 0.011417746543884277 0.0012747347354888916 9.17201870009876e-09 -0.0 0.0</pose>
+				<inertia>
+					<ixx>69991.87007750152e-09</ixx>
+					<ixy>0.0</ixy>
+					<ixz>0.0</ixz>
+					<iyy>76260.3313830823e-09</iyy>
+					<iyz>0.0</iyz>
+					<izz>79205.04252467708e-09</izz>
+				</inertia>
+			</inertial>
+			<collision name="simp_Tail1_collision">
+				<pose>0.0 -0.03500014543533325 -2.3469328880310059e-07 1.5000009536743164 -0.0 0.0</pose>
+				<geometry>
+					<cylinder>
+						<radius>0.030000001192092896</radius>
+						<length>0.12000000476837158</length>
+					</cylinder>
+				</geometry>
+			</collision>
+			<visual name="VIS_link_Tail1_visual">
+				<pose>0.0 0.01342124491930008 -2.7194619178771973e-07 1.1156478052498642e-07 -0.0 0.0</pose>
+				<geometry>
+					<mesh>
+						<uri>model://nermo_simulation/meshes/visual/VIS_link_Tail1_visual.dae</uri>
+						<scale>0.003000000724568963 0.003000000724568963 0.003000000724568963</scale>
+					</mesh>
+				</geometry>
+			</visual>
+		</link>
+                <!--   
+		<joint name="joint_World" type="revolute">
+			<parent>world</parent>
+			<child>link_Body</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>0.0</upper>
+					<effort>100.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+			</axis>
+		</joint>
+			-->
+		<joint name="joint_Body10" type="revolute">
+			<parent>link_Body</parent>
+			<child>link_Body10</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.2</lower>
+					<upper>0.2</upper>
+					<effort>100.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="joint_L_Shoulder" type="revolute">
+			<parent>link_Body10</parent>
+			<child>link_LV</child>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-0.9</lower>
+					<upper>1.7</upper>
+					<effort>100.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<!--
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.01</spring_stiffness>
+					<damping>0.001</damping>
+					<friction>0</friction>
+				</dynamics>
+			-->
+			</axis>
+		</joint>
+		<joint name="joint_L_Elbow" type="revolute">
+			<parent>link_LV</parent>
+			<child>link_LV3</child>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-0.5</lower>
+					<upper>0.2</upper>
+					<effort>10.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<!--
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.002</spring_stiffness>
+					<damping>0.0002</damping>
+					<friction>0</friction>
+				</dynamics>
+			-->
+			</axis>
+		</joint>
+		<joint name="joint_NeckH" type="revolute">
+			<parent>link_Body10</parent>
+			<child>link_Neck</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.7853980302393938</lower>
+					<upper>0.7853980302393938</upper>
+					<effort>100.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<!--
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.1</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
+			-->
+			</axis>	
+		</joint>
+		<joint name="joint_NeckV" type="revolute">
+			<parent>link_Neck</parent>
+			<child>link_Head</child>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-0.7853980302393938</lower>
+					<upper>0.959931022017854</upper>
+					<effort>100.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<!--
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.10</spring_stiffness>
+					<damping>1.0</damping>
+					<friction>0</friction>
+				</dynamics>
+			-->
+			</axis>
+		</joint>
+		<joint name="joint_R_Shoulder" type="revolute">
+			<parent>link_Body10</parent>
+			<child>link_RV</child>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-0.9</lower>
+					<upper>1.7</upper>
+					<effort>100.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<!--
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.01</spring_stiffness>
+					<damping>0.001</damping>
+					<friction>0</friction>
+				</dynamics>
+			-->
+			</axis>
+		</joint>
+		<joint name="joint_R_Elbow" type="revolute">
+			<parent>link_RV</parent>
+			<child>link_RV3</child>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-0.5</lower>
+					<upper>0.2</upper>
+					<effort>10.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<!--
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.002</spring_stiffness>
+					<damping>0.0002</damping>
+					<friction>0</friction>
+				</dynamics>
+			-->
+			</axis>
+		</joint>
+		<joint name="joint_Body8" type="revolute">
+			<parent>link_Body</parent>
+			<child>link_Body8</child>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-0.1</lower>
+					<upper>0.1</upper>
+					<effort>100.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.01</spring_stiffness>
+					<damping>0.01</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Body7" type="revolute">
+			<parent>link_Body8</parent>
+			<child>link_Body7</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.2</lower>
+					<upper>0.2</upper>
+					<effort>10.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.01</spring_stiffness>
+					<damping>0.01</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Body6" type="revolute">
+			<parent>link_Body7</parent>
+			<child>link_Body6</child>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>0.0</upper>
+					<effort>100.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.01</spring_stiffness>
+					<damping>0.01</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Body5" type="revolute">
+			<parent>link_Body6</parent>
+			<child>link_Body5</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>0.0</upper>
+					<effort>100.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.01</spring_stiffness>
+					<damping>0.01</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Body4" type="revolute">
+			<parent>link_Body5</parent>
+			<child>link_Body4</child>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>0.0</upper>
+					<effort>100.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.01</spring_stiffness>
+					<damping>0.01</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Body3" type="revolute">
+			<parent>link_Body4</parent>
+			<child>link_Body3</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>0.0</upper>
+					<effort>100.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.01</spring_stiffness>
+					<damping>0.01</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Body2" type="revolute">
+			<parent>link_Body3</parent>
+			<child>link_Body2</child>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>0.0</upper>
+					<effort>100.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.1</spring_stiffness>
+					<damping>0.1</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Body1" type="revolute">
+			<parent>link_Body2</parent>
+			<child>link_Body1</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.2</lower>
+					<upper>0.2</upper>
+					<effort>100.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.01</spring_stiffness>
+					<damping>0.001</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_L_Hip" type="revolute">
+			<parent>link_Body1</parent>
+			<child>link_LH</child>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-0.5</lower>
+					<upper>1.6</upper>
+					<effort>100.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<!--
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.01</spring_stiffness>
+					<damping>0.001</damping>
+					<friction>0</friction>
+				</dynamics>
+			-->
+			</axis>
+		</joint>
+		<joint name="joint_L_Knee" type="revolute">
+			<parent>link_LH</parent>
+			<child>link_LH9</child>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>0.7</upper>
+					<effort>100.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.01</spring_stiffness>
+					<damping>0.001</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_L_Ankle" type="revolute">
+			<parent>link_LH9</parent>
+			<child>link_LH5</child>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-1.5</lower>
+					<upper>0.26</upper>
+					<effort>100.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.001</spring_stiffness>
+					<damping>0.00002</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_LH3" type="revolute">
+			<parent>link_LH5</parent>
+			<child>link_LH3</child>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>0.0</upper>
+					<effort>100.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="joint_LH_linkage" type="revolute">
+			<parent>link_LH</parent>
+			<child>link_LH_linkage</child>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+			</axis>
+		</joint>
+		<joint name="joint_LH_linkage2" type="revolute">
+			<parent>link_LH5</parent>
+			<child>link_LH_linkage</child>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+			</axis>
+			<pose>0 0.075 0 0 -0.0 0.0</pose>
+		</joint>
+		<joint name="joint_R_Hip" type="revolute">
+			<parent>link_Body1</parent>
+			<child>link_RH</child>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-0.5</lower>
+					<upper>1.6</upper>
+					<effort>100.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<!--
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.01</spring_stiffness>
+					<damping>0.001</damping>
+					<friction>0</friction>
+				</dynamics>
+			-->
+			</axis>
+		</joint>
+		<joint name="joint_RH_linkage" type="revolute">
+			<parent>link_RH</parent>
+			<child>link_RH_linkage</child>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+			</axis>
+		</joint>
+		<joint name="joint_RH_linkage2" type="revolute">
+			<parent>link_RH5</parent>
+			<child>link_RH_linkage</child>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+			</axis>
+			<pose>0 0.075 0 0 -0.0 0.0</pose>
+		</joint>
+		<joint name="joint_R_Knee" type="revolute">
+			<parent>link_RH</parent>
+			<child>link_RH9</child>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>0.7</upper>
+					<effort>100.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.01</spring_stiffness>
+					<damping>0.001</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_R_Ankle" type="revolute">
+			<parent>link_RH9</parent>
+			<child>link_RH5</child>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-1.5</lower>
+					<upper>0.26</upper>
+					<effort>100.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.001</spring_stiffness>
+					<damping>0.00002</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_RH3" type="revolute">
+			<parent>link_RH5</parent>
+			<child>link_RH3</child>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>0.0</upper>
+					<effort>100.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+			</axis>
+		</joint>
+		<joint name="joint_Tail22" type="revolute">
+			<parent>link_Body1</parent>
+			<child>link_Tail22</child>
+			<axis>
+				<xyz>1.0 0.0 0.0</xyz>
+				<limit>
+					<!--<lower>-0.06981320336928681</lower>
+					<upper>1.4835299973532345</upper>-->
+					<lower>-0.06</lower>
+					<upper>0.7</upper>
+					<effort>10.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.0000</spring_stiffness>
+					<damping>0.0005</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Tail21" type="revolute">
+			<parent>link_Tail22</parent>
+			<child>link_Tail21</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.25</lower>
+					<upper>0.25</upper>
+					<effort>10.0</effort>
+					<velocity>100.0</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.0000</spring_stiffness>
+					<damping>0.000005</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Tail20" type="revolute">
+			<parent>link_Tail21</parent>
+			<child>link_Tail20</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>0.0</upper>
+					<effort>10.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.0000</spring_stiffness>
+					<damping>0.000005</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Tail19" type="revolute">
+			<parent>link_Tail20</parent>
+			<child>link_Tail19</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.25</lower>
+					<upper>0.25</upper>
+					<effort>10.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.0000</spring_stiffness>
+					<damping>0.000005</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Tail18" type="revolute">
+			<parent>link_Tail19</parent>
+			<child>link_Tail18</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>0.0</upper>
+					<effort>10.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.0000</spring_stiffness>
+					<damping>0.000005</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Tail17" type="revolute">
+			<parent>link_Tail18</parent>
+			<child>link_Tail17</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.25</lower>
+					<upper>0.25</upper>
+					<effort>10.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.0000</spring_stiffness>
+					<damping>0.000005</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Tail16" type="revolute">
+			<parent>link_Tail17</parent>
+			<child>link_Tail16</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>0.0</upper>
+					<effort>10.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.0000</spring_stiffness>
+					<damping>0.000005</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Tail15" type="revolute">
+			<parent>link_Tail16</parent>
+			<child>link_Tail15</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.25</lower>
+					<upper>0.25</upper>
+					<effort>10.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.0000</spring_stiffness>
+					<damping>0.000005</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Tail14" type="revolute">
+			<parent>link_Tail15</parent>
+			<child>link_Tail14</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>0.0</upper>
+					<effort>10.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.0000</spring_stiffness>
+					<damping>0.000005</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Tail13" type="revolute">
+			<parent>link_Tail14</parent>
+			<child>link_Tail13</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.25</lower>
+					<upper>0.25</upper>
+					<effort>10.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.0000</spring_stiffness>
+					<damping>0.000005</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Tail12" type="revolute">
+			<parent>link_Tail13</parent>
+			<child>link_Tail12</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>0.0</upper>
+					<effort>10.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.0000</spring_stiffness>
+					<damping>0.000005</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Tail11" type="revolute">
+			<parent>link_Tail12</parent>
+			<child>link_Tail11</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.25</lower>
+					<upper>0.25</upper>
+					<effort>10.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.0000</spring_stiffness>
+					<damping>0.000005</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Tail10" type="revolute">
+			<parent>link_Tail11</parent>
+			<child>link_Tail10</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>0.0</upper>
+					<effort>10.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.0000</spring_stiffness>
+					<damping>0.000005</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Tail9" type="revolute">
+			<parent>link_Tail10</parent>
+			<child>link_Tail9</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.25</lower>
+					<upper>0.25</upper>
+					<effort>10.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.0000</spring_stiffness>
+					<damping>0.000005</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Tail8" type="revolute">
+			<parent>link_Tail9</parent>
+			<child>link_Tail8</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>0.0</upper>
+					<effort>10.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.0000</spring_stiffness>
+					<damping>0.000005</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Tail7" type="revolute">
+			<parent>link_Tail8</parent>
+			<child>link_Tail7</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.25</lower>
+					<upper>0.25</upper>
+					<effort>10.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.0000</spring_stiffness>
+					<damping>0.000005</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Tail6" type="revolute">
+			<parent>link_Tail7</parent>
+			<child>link_Tail6</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>0.0</upper>
+					<effort>10.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.0000</spring_stiffness>
+					<damping>0.000005</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Tail5" type="revolute">
+			<parent>link_Tail6</parent>
+			<child>link_Tail5</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.25</lower>
+					<upper>0.25</upper>
+					<effort>10.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.0000</spring_stiffness>
+					<damping>0.000005</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Tail4" type="revolute">
+			<parent>link_Tail5</parent>
+			<child>link_Tail4</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>0.0</upper>
+					<effort>10.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.0000</spring_stiffness>
+					<damping>0.000005</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Tail3" type="revolute">
+			<parent>link_Tail4</parent>
+			<child>link_Tail3</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.25</lower>
+					<upper>0.25</upper>
+					<effort>10.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.0000</spring_stiffness>
+					<damping>0.000005</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Tail2" type="revolute">
+			<parent>link_Tail3</parent>
+			<child>link_Tail2</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.0</lower>
+					<upper>0.0</upper>
+					<effort>10.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.0000</spring_stiffness>
+					<damping>0.000005</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		<joint name="joint_Tail1" type="revolute">
+			<parent>link_Tail2</parent>
+			<child>link_Tail1</child>
+			<axis>
+				<xyz>0.0 0.0 1.0</xyz>
+				<limit>
+					<lower>-0.25</lower>
+					<upper>0.25</upper>
+					<effort>10.0</effort>
+					<velocity>0.5</velocity>
+				</limit>
+				<dynamics>
+					<spring_reference>0</spring_reference>
+					<spring_stiffness>0.0000</spring_stiffness>
+					<damping>0.000005</damping>
+					<friction>0</friction>
+				</dynamics>
+			</axis>
+		</joint>
+		 <plugin name='generic_controller' filename='libgeneric_controller_plugin.so'>
+      <controller joint_name='joint_R_Shoulder'>
+        <type>position</type>
+		<pid>10.0 1.0 2.0</pid>
+      </controller>
+      <controller joint_name='joint_L_Shoulder'>
+        <type>position</type>
+		<pid>10.0 1.0 2.0</pid>
+      </controller>
+      <controller joint_name='joint_R_Hip'>
+        <type>position</type>
+		<pid>10.0 1.0 2.0</pid>
+      </controller>
+      <controller joint_name='joint_L_Hip'>
+        <type>position</type>
+		<pid>10.0 1.0 2.0</pid>
+      </controller>
+
+      
+      <controller joint_name='joint_L_Elbow'>
+        <type>position</type>
+        <!--<pid>0.08 0.001 0.0005</pid>-->
+		<!--<pid>0.1 0.010 0.02</pid>-->
+		<pid>0.8 0.10 0.2</pid>
+
+      </controller>
+      <controller joint_name='joint_R_Elbow'>
+        <type>position</type>
+		<pid>0.8 0.10 0.2</pid>
+      </controller>
+      <controller joint_name='joint_L_Knee'>
+        <type>position</type>
+		<pid>1.0 0.10 0.2</pid>
+      </controller>
+      <controller joint_name='joint_R_Knee'>
+        <type>position</type>
+		<pid>1.0 0.10 0.2</pid>
+      </controller>
+
+      <controller joint_name='joint_NeckV'>
+        <type>position</type>
+		<pid>10.0 1.0 2.0</pid>
+      </controller>
+      <controller joint_name='joint_NeckH'>
+        <type>position</type>
+		<pid>10.0 1.0 2.0</pid>
+      </controller>
+
+      <controller joint_name='joint_Body1'>
+        <type>position</type>
+		<pid>10.0 1.0 2.0</pid>
+      </controller>
+      <controller joint_name='joint_Body7'>
+        <type>position</type>
+		<pid>10.0 1.0 2.0</pid>
+      </controller>
+      <controller joint_name='joint_Body10'>
+        <type>position</type>
+		<pid>10.0 1.0 2.0</pid>
+      </controller>
+
+       <controller joint_name='joint_Tail21'>
+        <type>position</type>
+		<pid>1.0 0.10 0.2</pid>
+      </controller>
+      <controller joint_name='joint_Tail19'>
+        <type>position</type>
+		<pid>1.0 0.10 0.2</pid>
+      </controller>
+      <controller joint_name='joint_Tail17'>
+        <type>position</type>
+		<pid>1.0 0.10 0.2</pid>
+      </controller>
+      <controller joint_name='joint_Tail15'>
+        <type>position</type>
+		<pid>1.0 0.10 0.2</pid>
+      </controller>
+      <controller joint_name='joint_Tail13'>
+        <type>position</type>
+		<pid>1.0 0.10 0.2</pid>
+      </controller>
+      <controller joint_name='joint_Tail11'>
+        <type>position</type>
+		<pid>1.0 0.10 0.2</pid>
+      </controller>
+      <controller joint_name='joint_Tail9'>
+        <type>position</type>
+		<pid>1.0 0.10 0.2</pid>
+      </controller>
+      <controller joint_name='joint_Tail7'>
+        <type>position</type>
+		<pid>0.8 0.10 0.2</pid>
+      </controller>
+      <controller joint_name='joint_Tail5'>
+        <type>position</type>
+		<pid>0.8 0.10 0.2</pid>
+      </controller>
+      <controller joint_name='joint_Tail3'>
+        <type>position</type>
+		<pid>0.8 0.10 0.2</pid>
+      </controller>
+      <controller joint_name='joint_Tail1'>
+        <type>position</type>
+		<pid>0.8 0.10 0.2</pid>
+      </controller>
+
+
+    </plugin>
+	</model>
+</sdf>
