@@ -9,6 +9,11 @@
 ## Usage
 
  Copy the folder to a gazebo readable path.
+ This Simulation uses the “libgeneric_controller_plugin.so” from the Neurorobotics Platform. To istall without the NRP copy the files from here:
+ 
+ https://bitbucket.org/hbpneurorobotics/gazeborospackages/src/development/src/generic_controller_plugin/
+ 
+ to your catkin workspace and run catkin_make.
 
 ## License
 [GPLv3](https://fsf.org/)
